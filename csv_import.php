@@ -64,4 +64,4 @@ function loadProductsPost() {
 
 $import = New AdminImportControllerCore();
 loadProductsPost();
-echo ($import->productImport()) ? 'Productos importados a la BBDD con exito' : 'Falló la importación de productos a la BBDD';
+echo ($import->productImport()) ? 'Productos importados a la BBDD con éxito' : 'Falló la importación de productos a la BBDD';
